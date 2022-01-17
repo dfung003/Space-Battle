@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script>
+    <link href="./style.css" rel="stylesheet" type="text/css"/>
+    <title>Space Battle</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 id="main-title">Space Battle</h1>
+        <h3 id="sub-title">Aliens have invaded us. Protect Earth!</h3>
+    </header>
+    <div id="text-container">
+        <div id="text-wrap">
+            <p id= "p1">
+            
+            </p>
+            <p id= "p2">
+            
+            </p>
+            <p id= "p3">
+            
+            </p>
+        </div>
+    </div>
+    <div class="buttons">
+        <button class= "button" id= "attack">Attack</button>
+        <button class= "button" id= "retreat">Retreat</button>
+        <button class= "button" id= "restart">Restart Game</button>
+    </div>
+    <div class="bottom-text">
+        <div id="rules">
+        Rules:
+        <ol>
+            <li>You attack the first alien ship</li>
+            <li>If the ship survives, it attacks you</li>
+            <li>If you survive, you attack the ship again</li>
+            <li>If it survives, it attacks you again ... etc</li>
+            <li>If you destroy the ship, you have the option to attack the next ship or to retreat</li>
+            <li>If you retreat, the game is over, perhaps leaving the game open for further developments or options</li>
+            <li>You win the game if you destroy all of the aliens</li>
+            <li>You lose the game if you are destroyed</li>
+        </ol>
+        </div>
+        <div id="current-stats">
+            <p id= "player-hull"> Player HP: <span id= "hull-value"> </span> </p>
+            <p> Firepower: 5</p>
+            <p> Accuracy: 0.7 </p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,83 @@
+
+#main-title {
+    text-align: center;
+}
+
+#sub-title {
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.button {
+    margin: 10px;
+}
+
+#attack {
+    font-family: 'Space Mono', monospace;
+    background-color: lightgreen;
+}
+
+#retreat {
+    font-family: 'Space Mono', monospace;
+    background-color: lightgreen;
+}
+
+#restart {
+    font-family: 'Space Mono', monospace;
+    background-color: lightgreen;
+}
+
+body {
+    background-image: url("space-battle-background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Space Mono', monospace;
+    color: white;
+    
+}
+
+#text-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#text-wrap {
+    border: 1px solid none white;
+    height: 100px;
+    width: 600px;
+    margin-bottom: 20px;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+p {
+    margin: 10px;
+    text-align: center;
+   
+}
+
+.bottom-text {
+    display: flex;
+ 
+}
+
+#rules {
+    border: solid white 2px;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
+    width: 50%;
+}
+
+#current-stats {
+    border: solid white 2px;
+    width: 50%;
+}
