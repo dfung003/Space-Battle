@@ -1,3 +1,6 @@
+#whole-body {
+    background-color: rgba(46, 42, 42, 0.55)
+}
 
 #main-title {
     text-align: center;
@@ -47,6 +50,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
 }
+
 #text-wrap {
     border: 1px solid none white;
     height: 100px;
